@@ -8,6 +8,8 @@
 
 #include "Character/ALSBaseCharacter.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSNotifyStateEarlyBlendOut)
+
 void UALSNotifyStateEarlyBlendOut::NotifyTick(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation,
                                               float FrameDeltaTime, const FAnimNotifyEventReference& EventReference)
 {

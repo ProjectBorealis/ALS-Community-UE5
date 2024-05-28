@@ -6,6 +6,8 @@
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "AIController.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALS_BTTask_SetFocusToPlayer)
+
 UALS_BTTask_SetFocusToPlayer::UALS_BTTask_SetFocusToPlayer()
 {
 	NodeName = "Focus On Player";

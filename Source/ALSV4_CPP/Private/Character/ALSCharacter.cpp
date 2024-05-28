@@ -9,6 +9,8 @@
 #include "AI/ALSAIController.h"
 #include "Kismet/GameplayStatics.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSCharacter)
+
 AALSCharacter::AALSCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {

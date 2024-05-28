@@ -10,6 +10,8 @@
 
 #include "Components/CapsuleComponent.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSMathLibrary)
+
 FTransform UALSMathLibrary::MantleComponentLocalToWorld(const FALSComponentAndTransform& CompAndTransform)
 {
 	const FTransform& InverseTransform = CompAndTransform.Component->GetComponentToWorld().Inverse();

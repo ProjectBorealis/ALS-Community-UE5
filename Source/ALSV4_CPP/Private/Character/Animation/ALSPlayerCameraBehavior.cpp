@@ -7,6 +7,8 @@
 
 #include "Character/ALSBaseCharacter.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSPlayerCameraBehavior)
+
 void UALSPlayerCameraBehavior::SetRotationMode(EALSRotationMode RotationMode)
 {
 	bVelocityDirection = RotationMode == EALSRotationMode::VelocityDirection;

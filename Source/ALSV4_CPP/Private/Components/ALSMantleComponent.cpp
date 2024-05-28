@@ -1,4 +1,4 @@
-﻿// Copyright:       Copyright (C) 2022 Doğa Can Yanıkoğlu
+// Copyright:       Copyright (C) 2022 Doğa Can Yanıkoğlu
 // Source Code:     https://github.com/dyanikoglu/ALS-Community
 
 
@@ -12,6 +12,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Library/ALSMathLibrary.h"
+
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSMantleComponent)
 
 
 const FName NAME_MantleEnd(TEXT("MantleEnd"));

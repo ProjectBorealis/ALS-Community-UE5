@@ -6,6 +6,8 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "BehaviorTree/Blackboard/BlackboardKeyType_Vector.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALS_BTTask_GetRandomLocation)
+
 UALS_BTTask_GetRandomLocation::UALS_BTTask_GetRandomLocation()
 {
 	NodeName = "Get Random Location";

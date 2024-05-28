@@ -7,6 +7,8 @@
 
 #include "Curves/CurveVector.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSCharacterMovementComponent)
+
 UALSCharacterMovementComponent::UALSCharacterMovementComponent(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {

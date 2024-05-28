@@ -7,6 +7,8 @@
 #include "Character/ALSBaseCharacter.h"
 #include "Character/Animation/ALSCharacterAnimInstance.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSNotifyStateOverlayOverride)
+
 void UALSNotifyStateOverlayOverride::NotifyBegin(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation,
                                                  float TotalDuration, const FAnimNotifyEventReference& EventReference)
 {

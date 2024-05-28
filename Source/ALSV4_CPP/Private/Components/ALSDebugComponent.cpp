@@ -1,4 +1,4 @@
-﻿// Copyright:       Copyright (C) 2022 Doğa Can Yanıkoğlu
+// Copyright:       Copyright (C) 2022 Doğa Can Yanıkoğlu
 // Source Code:     https://github.com/dyanikoglu/ALS-Community
 
 #include "Components/ALSDebugComponent.h"
@@ -9,6 +9,8 @@
 #include "Character/Animation/ALSPlayerCameraBehavior.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSDebugComponent)
 
 bool UALSDebugComponent::bDebugView = false;
 bool UALSDebugComponent::bShowTraces = false;

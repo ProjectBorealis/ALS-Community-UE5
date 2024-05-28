@@ -15,6 +15,8 @@
 #include "NiagaraSystem.h"
 #include "NiagaraFunctionLibrary.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSAnimNotifyFootstep)
+
 
 const FName NAME_Mask_FootstepSound(TEXT("Mask_FootstepSound"));
 

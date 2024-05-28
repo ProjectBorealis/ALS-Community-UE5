@@ -12,6 +12,8 @@
 
 #include "Kismet/KismetMathLibrary.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSPlayerCameraManager)
+
 
 const FName NAME_CameraBehavior(TEXT("CameraBehavior"));
 const FName NAME_CameraOffset_X(TEXT("CameraOffset_X"));

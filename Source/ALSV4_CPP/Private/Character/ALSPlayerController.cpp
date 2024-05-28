@@ -14,6 +14,8 @@
 #include "Components/ALSDebugComponent.h"
 #include "Kismet/GameplayStatics.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSPlayerController)
+
 void AALSPlayerController::OnPossess(APawn* NewPawn)
 {
 	Super::OnPossess(NewPawn);
